@@ -4,7 +4,6 @@ import { Provider } from "react-redux";
 import store from "./store";
 import { createHashHistory } from "history";
 
-import { ipcRenderer } from "electron";
 import axios from "axios";
 import Dashboard from "./components/Dashboard";
 import Header from "./components/Header";
